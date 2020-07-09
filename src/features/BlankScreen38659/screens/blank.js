@@ -29,7 +29,11 @@ export class _Blank extends React.Component {
   }
 
   render = () => (
-    <View
+    <ImageBackground
+      source={{
+        uri:
+          "https://d3nfddh2sbo9hk.cloudfront.net/media/project_component_resources/Jellyfish_xrt85wt.jpg"
+      }}
       style={{
         width: "100%",
         height: "100%",
@@ -458,7 +462,7 @@ export class _Blank extends React.Component {
           fontWeight: "normal"
         }}
       />
-    </View>
+    </ImageBackground>
   )
 }
 
